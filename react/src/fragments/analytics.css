@@ -1,0 +1,16 @@
+/* style for analytics */
+.analytics-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+/* style for graphs */
+.graph {
+    /* width: 100%;
+    max-width: 600px;
+    margin: 10px; */
+    display: inline-block;
+    margin: 10px;
+}

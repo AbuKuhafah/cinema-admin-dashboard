@@ -1,0 +1,53 @@
+
+/* Apply a background color and set the font for the whole page */
+body {
+  background-color: #caf0f8;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* dashboard container */
+.dashboard {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Navigation section  */
+.dashboard-navigation {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  /* margin-top: 10px; */
+  margin-bottom: 50px;
+}
+
+/* section styles */
+.user-section, .review-section, .dashboard-content {
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+  flex: 1;
+}
+
+/* Add spacing between sections */
+.user-section, .review-section {
+  margin-right: 20px;
+}
+
+.recharts-surface {
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  /* padding: 20px; */
+}
+
+h1 {
+  font-size: 24px;
+  margin: 0;
+}
+
+
